@@ -1,0 +1,9 @@
+{
+	"require": {
+		"symfony/symfony": "2.4.*",
+		"phpunit/phpunit": "~4.0.0"
+	},
+	"autoload": {
+		"files": ["model.php","controllers.php"]
+	} 
+}
