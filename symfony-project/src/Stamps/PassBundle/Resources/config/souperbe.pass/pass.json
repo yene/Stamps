@@ -1,0 +1,57 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.ch.souperbe",
+  "serialNumber" : "E5982H-I2",
+  "teamIdentifier" : "NDJHDNKXD6",
+  "webServiceURL" : "http://192.168.1.109/webservice.php",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "barcode" : {
+    "message" : "123456789",
+    "altText" : "123456789",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "locations" : [
+    {
+      "longitude" : 8.206210,
+      "latitude" : 47.484752,
+      "maxDistance" : 500
+    }
+  ],
+  "organizationName" : "Souperbe",
+  "description" : "Souperbe Coupon",
+  "logoText" : "Souperbe",
+  "foregroundColor" : "rgb(255, 255, 255)",   
+  "backgroundColor" : "rgb(206, 140, 53)",
+  "beacons" : [{
+    "proximityUUID":"blabla",
+    "relevantText":"Welcome to souperbe"
+  }],
+  "coupon" : {
+    "primaryFields" : [
+      {
+        "key" : "offer",
+        "value" : "Free glass water",
+        "label" : "When you visit restaurant souperbe"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "expires",
+        "label" : "EXPIRES",
+        "value" : "2014-04-24T10:00-05:00",
+        "isRelative" : true,
+        "dateStyle" : "PKDateStyleShort"
+      }
+    ]
+  },
+  "backFields" : [{
+    "key" : "website",
+    "label" : "Visit our website to find out more",
+    "value" : "http://www.souperbe.ch/"
+  },{
+    "key" : "website",
+    "label" : "Show Location in Maps",
+    "value" : "http://maps.apple.com/?q=souperbe+Suppenbar+Lucie+Soland"
+  }]
+}
