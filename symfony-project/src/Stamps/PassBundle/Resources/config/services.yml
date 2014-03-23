@@ -1,0 +1,7 @@
+parameters:
+#    stamps_pass.example.class: Stamps\PassBundle\Example
+
+services:
+#    stamps_pass.example:
+#        class: %stamps_pass.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
