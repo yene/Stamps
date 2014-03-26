@@ -23,3 +23,4 @@ Pods
 vendor
 symfony-project/src/Stamps/PassBundle/Resources/config/Certificate.p12
 symfony-project/src/Stamps/PassBundle/Resources/config/AppleWWDRCA.pem
+symfony-project/app/sqlite.db

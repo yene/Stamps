@@ -34,3 +34,9 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+doctrine:
+  dbal:
+    driver: pdo_sqlite
+    path: "%kernel.root_dir%/sqlite.db"
+    charset: UTF8
