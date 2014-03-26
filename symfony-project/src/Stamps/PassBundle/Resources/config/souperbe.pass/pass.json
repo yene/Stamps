@@ -24,6 +24,8 @@
   "foregroundColor" : "rgb(255, 255, 255)",   
   "backgroundColor" : "rgb(206, 140, 53)",
   "beacons" : [{
+    "major":"16-bit unsigned integer",
+    "minor":"16-bit unsigned integer",
     "proximityUUID":"blabla",
     "relevantText":"Welcome to souperbe"
   }],
