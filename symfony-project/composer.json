@@ -23,7 +23,10 @@
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "phpunit/phpunit": "4.0.*@dev",
-        "pkpass/pkpass": "dev-master"
+        "pkpass/pkpass": "dev-master",
+        "friendsofsymfony/rest-bundle": "@dev",
+        "jms/serializer-bundle": "@dev",
+        "nelmio/api-doc-bundle": "@dev"
     },
     "scripts": {
         "post-install-cmd": [

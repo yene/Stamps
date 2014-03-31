@@ -1,3 +1,8 @@
+acme_blog:
+    resource: "@AcmeBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 stamps_pass:
     resource: "@StampsPassBundle/Resources/config/routing.yml"
     prefix:   /
